@@ -2,3 +2,6 @@ Helolo
 freecodestack
 fddgffffffffffffffffffffffffffffffffffffffffd
 from MAINNNNNNNNN
+const loginForm = document.getElementById('login-form');
+const errorMessage = document.getElementById('error-message');
+
