@@ -1,5 +1,9 @@
 // add new comment 
+
+fffffffffffffffffffffffffffffffffffffffffffffffffffffff
+
 dsdsdsdsdddddddddd
+
 
 // Select the login form and output elements
 const loginForm = document.getElementById('login-form');
@@ -15,7 +19,7 @@ loginForm.addEventListener('submit', async (e) => {
 
     try {
         // 3. Send a POST request to your backend API
-        const response = await fetch('https://yourdomain.com', {
+        const response = await fetch('https://maira-api.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -26,7 +30,7 @@ loginForm.addEventListener('submit', async (e) => {
         const result = await response.json();
 
         if (!response.ok) {
-            throw new Error(result.message || 'Login failed.');
+            throw new Error(result.message || 'Oops!!! Login failed.');
         }
 
         // 4. Store the authentication token securely
